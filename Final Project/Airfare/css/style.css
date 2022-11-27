@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+/* All Heading Tags */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p, label, span, a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    color: seashell;
+}
+
+body {
+    width: 100%;
+}
+
+/* Header AREA */
+
+header {
+    width: 100%;
+    background-color: skyblue;
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    
+}
+
+.logo h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+.logo span {
+    color: rgba(255,127,80);
+}
+
+.menu ul {
+    width: 100%;
+    float: center;
+    text-align: right;
+    padding: 10px;
+}
+
+.menu a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.menu li {
+    display: inline-block;
+    padding-left: 5px;
+} 
+
+/* Content AREA */
+.content {
+    float: left;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+.content button {
+    font-weight: bold;
+    background: goldenrod;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: medium;
+}
+.content-text h1 {
+    text-transform: uppercase;
+}
+.content-text span {
+    color: orange;
+}
+.content-text p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Ads AREA */
+.ads {
+    overflow: auto;
+    display: flex;
+    background-color: #fff;
+    height: 700px;
+}
+
+.ads-text {
+    overflow: auto;
+    margin-left: 50px;
+    margin-top: 300px;
+    color: goldenrod;
+}
+
+
+.ads-text span {
+    color: darkslateblue;
+}
+
+.ads img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 250px;
+
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+
+.ads-area {
+    margin-left: 10px;
+    box-shadow: 2px 2px 4px #000000;
+    width: 550px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.ads-area p {
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslateblue;
+}
+
+.ads-area h3 {
+    padding-top: 10px;
+    padding-left: 40px;
+    color: chocolate;
+}
+
+.ads-area button {
+    font-size: medium;
+    background-color: darkorange;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+/* Promo AREA */
+
+.promo-area {
+    overflow: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promo-area img {
+    display: inline-block;
+}
+
+.promo-box1{
+    width: 45%;
+    float: left;
+    height: 300px;
+    background-size: cover;
+    background-image: url('../images/promo1.jpeg');
+    background-position: center;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 40px;   
+    margin-bottom: 50px;
+}
+
+.promo-box1 button {
+    font-size: medium;
+    background-color: darkorange;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.promo-box2{
+    width: 45%;
+    float: right;
+    height: 300px;
+    background-size: cover;
+    background-image: url('../images/promo2.jpeg');
+    background-position: center;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 40px;     
+}
+
+
+.promo-text {
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 350px;
+}
+
+.promo-text h3 {
+    text-transform: uppercase;
+}
+
+.promo-text p {
+    padding-top: 20px;
+}
+
+.promo-text form {
+    padding-top:30px ;
+}
+
+.promo-text form input {
+    padding: 15px;
+    width: 200px;
+    border: none;
+    outline: none;
+}
+
+.promo-text button {
+    font-size: medium;
+    background-color: darkorange;
+    padding: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+/* About AREA */
+.about-area {
+    overflow: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    background-color: darkslateblue;
+    background-position: center;
+    background-size: cover;
+    
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about {
+    margin-top: 100px;
+    display: inline-block;
+    justify-content: center;
+    text-align: left;
+}
+
+.about-text {
+    padding-left: 200px;
+    
+}
+
+.about-text h3 {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.about-text p {
+    line-height: 2;
+}
+
+/* Footer AREA */
+.footer {
+    overflow: auto;
+    width: 100%;
+    background-color:goldenrod;
+    height: 50px;
+}
+
+.footer-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslateblue;
+    padding-left: 600px;
+    padding-top: 20px;
+}
